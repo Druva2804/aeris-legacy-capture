@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				aeris: {
+					cream: "#F8F6F0",
+					beige: "#E5E0D5",
+					sand: "#D3C7B5",
+					charcoal: "#333333",
+					overlay: "rgba(51, 51, 51, 0.5)"
 				}
 			},
 			borderRadius: {
@@ -84,12 +92,38 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': { opacity: '0', transform: 'translateY(10px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
+				},
+				'fade-in-slow': {
+					'0%': { opacity: '0' },
+					'100%': { opacity: '1' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out forwards',
+				'fade-in-slow': 'fade-in-slow 1.2s ease-out forwards'
+			},
+			fontFamily: {
+				'serif': ['Playfair Display', 'Georgia', 'serif'],
+				'sans': ['Inter', 'system-ui', 'sans-serif']
+			},
+			typography: {
+				DEFAULT: {
+					css: {
+						maxWidth: '65ch',
+						color: '#333333',
+						'h1, h2, h3, h4': {
+							fontFamily: '"Playfair Display", Georgia, serif',
+							fontWeight: '400',
+						},
+					},
+				},
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
