@@ -52,7 +52,7 @@
   }
 
   body {
-    @apply bg-aeris-cream text-aeris-charcoal font-sans;
+    @apply bg-white text-aeris-charcoal font-sans;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -61,7 +61,7 @@
 }
 
 .hero-gradient {
-  background: linear-gradient(to bottom, transparent, rgba(248, 246, 240, 0.8) 80%);
+  background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.9) 80%);
 }
 
 .service-card {

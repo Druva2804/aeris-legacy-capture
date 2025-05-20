@@ -7,7 +7,7 @@ const serviceItems = [
   {
     title: "Commercial Photography",
     description: "Elegant, editorial-grade imagery designed to elevate your brand.",
-    icon: <Camera className="h-8 w-8 mb-5 text-aeris-sand" />,
+    icon: <Camera className="h-8 w-8 mb-5 text-[#D3C7B5]" />,
     specialties: [
       "Architecture & Interior Design",
       "Hospitality & Restaurant",
@@ -17,7 +17,7 @@ const serviceItems = [
   {
     title: "E-Commerce Photography",
     description: "Product photography that turns browsers into buyers.",
-    icon: <Image className="h-8 w-8 mb-5 text-aeris-sand" />,
+    icon: <Image className="h-8 w-8 mb-5 text-[#D3C7B5]" />,
     specialties: [
       "Studio Product Photography",
       "Lifestyle Product Photography",
@@ -27,7 +27,7 @@ const serviceItems = [
   {
     title: "Editorial Photography",
     description: "Storytelling that captivates, inspires, and connects.",
-    icon: <BookOpen className="h-8 w-8 mb-5 text-aeris-sand" />,
+    icon: <BookOpen className="h-8 w-8 mb-5 text-[#D3C7B5]" />,
     specialties: [
       "Fashion Editorials",
       "Creative Brand Stories",
@@ -37,7 +37,7 @@ const serviceItems = [
   {
     title: "Personal Photography",
     description: "Honoring the moments that matter most, with grace and artistry.",
-    icon: <CalendarCheck className="h-8 w-8 mb-5 text-aeris-sand" />,
+    icon: <CalendarCheck className="h-8 w-8 mb-5 text-[#D3C7B5]" />,
     specialties: [
       "Portrait & Engagement Sessions",
       "Maternity & Newborn Photography",
@@ -48,7 +48,7 @@ const serviceItems = [
 
 const Services: React.FC = () => {
   return (
-    <section id="services" className="py-20 md:py-28 bg-aeris-cream">
+    <section id="services" className="py-20 md:py-28 bg-gray-50">
       <div className="container mx-auto px-6 md:px-10">
         <div className="text-center mb-16">
           <h2 className="font-serif text-3xl md:text-4xl mb-5">Our Photography Services</h2>
@@ -60,7 +60,7 @@ const Services: React.FC = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {serviceItems.map((service, index) => (
-            <Card key={index} className="service-card border border-aeris-beige/50 shadow-sm hover:shadow-md transition-all duration-300 bg-white">
+            <Card key={index} className="service-card border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 bg-white">
               <CardContent className="pt-6">
                 {service.icon}
                 <h3 className="font-serif text-xl mb-3">{service.title}</h3>
@@ -69,13 +69,13 @@ const Services: React.FC = () => {
                 <ul className="mb-6 text-sm">
                   {service.specialties.map((specialty, idx) => (
                     <li key={idx} className="mb-2 flex items-start">
-                      <span className="text-aeris-sand mr-2">•</span>
+                      <span className="text-[#D3C7B5] mr-2">•</span>
                       <span>{specialty}</span>
                     </li>
                   ))}
                 </ul>
                 
-                <a href="#" className="inline-flex items-center text-sm hover:text-aeris-sand transition-colors">
+                <a href="#" className="inline-flex items-center text-sm hover:text-[#D3C7B5] transition-colors">
                   Learn more <ArrowRight className="ml-1 h-3 w-3" />
                 </a>
               </CardContent>

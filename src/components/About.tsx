@@ -10,9 +10,9 @@ const About: React.FC = () => {
           {/* About Content */}
           <div>
             <div className="inline-flex items-center mb-4">
-              <span className="text-aeris-sand mr-2">✨</span>
+              <span className="text-[#D3C7B5] mr-2">✦</span>
               <h4 className="text-sm uppercase tracking-wider">About Aeris Studio</h4>
-              <span className="text-aeris-sand ml-2">✨</span>
+              <span className="text-[#D3C7B5] ml-2">✦</span>
             </div>
             
             <h2 className="font-serif text-3xl md:text-4xl mb-6">Where Light Meets Legacy</h2>
@@ -29,7 +29,7 @@ const About: React.FC = () => {
               </p>
             </div>
             
-            <Button className="bg-aeris-sand hover:bg-aeris-sand/90 text-aeris-charcoal">
+            <Button className="bg-[#D3C7B5] hover:bg-[#D3C7B5]/90 text-white">
               Our Story
             </Button>
           </div>
@@ -37,12 +37,12 @@ const About: React.FC = () => {
           {/* About Image Grid */}
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
-              <div className="h-64 bg-[url('https://images.unsplash.com/photo-1604514813560-1e4f5726db65?q=80&w=2070')] bg-cover bg-center rounded-lg"></div>
-              <div className="h-40 bg-[url('https://images.unsplash.com/photo-1506241537529-eefea1fbe44d?q=80&w=2070')] bg-cover bg-center rounded-lg"></div>
+              <div className="h-64 bg-[url('https://images.unsplash.com/photo-1604514813560-1e4f5726db65?q=80&w=2070')] bg-cover bg-center rounded-sm"></div>
+              <div className="h-40 bg-[url('https://images.unsplash.com/photo-1506241537529-eefea1fbe44d?q=80&w=2070')] bg-cover bg-center rounded-sm"></div>
             </div>
             <div className="space-y-4 pt-10">
-              <div className="h-40 bg-[url('https://images.unsplash.com/photo-1452587925148-ce544e77e70d?q=80&w=2069')] bg-cover bg-center rounded-lg"></div>
-              <div className="h-64 bg-[url('https://images.unsplash.com/photo-1545164415-2c89e0f94c5d?q=80&w=1974')] bg-cover bg-center rounded-lg"></div>
+              <div className="h-40 bg-[url('https://images.unsplash.com/photo-1452587925148-ce544e77e70d?q=80&w=2069')] bg-cover bg-center rounded-sm"></div>
+              <div className="h-64 bg-[url('https://images.unsplash.com/photo-1545164415-2c89e0f94c5d?q=80&w=1974')] bg-cover bg-center rounded-sm"></div>
             </div>
           </div>
         </div>
