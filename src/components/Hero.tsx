@@ -6,9 +6,9 @@ import Logo from './Logo';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative min-h-screen flex items-center bg-white">
+    <section className="relative min-h-screen flex items-center bg-aeris-cream">
       <div className="absolute inset-0 grid grid-cols-1 lg:grid-cols-2">
-        <div className="bg-white"></div>
+        <div className="bg-aeris-cream"></div>
         <div className="bg-[url('https://images.unsplash.com/photo-1520390138845-fd2d229dd553?q=80&w=2089')] bg-cover bg-center">
           <div className="absolute inset-0 bg-black/10"></div>
         </div>
