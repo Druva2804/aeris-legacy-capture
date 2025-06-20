@@ -14,14 +14,14 @@ const Logo: React.FC<LogoProps> = ({ variant = 'horizontal', className = '' }) =
           src="/lovable-uploads/8df15149-7bcf-403e-95ee-db2519b6bf0d.png" 
           alt="Aeris Studio" 
           className="h-10 md:h-12"
-          style={{ filter: 'brightness(0) saturate(100%) invert(31%) sepia(5%) saturate(542%) hue-rotate(359deg) brightness(95%) contrast(95%)' }}
+          style={{ filter: 'brightness(0) saturate(100%) invert(48%) sepia(5%) saturate(461%) hue-rotate(314deg) brightness(96%) contrast(87%)' }}
         />
       ) : (
         <img 
           src="/lovable-uploads/1f7f1d6e-c00b-4b77-b953-3b0394b21696.png" 
           alt="Aeris Studio" 
           className="h-14 md:h-16"
-          style={{ filter: 'brightness(0) saturate(100%) invert(31%) sepia(5%) saturate(542%) hue-rotate(359deg) brightness(95%) contrast(95%)' }}
+          style={{ filter: 'brightness(0) saturate(100%) invert(48%) sepia(5%) saturate(461%) hue-rotate(314deg) brightness(96%) contrast(87%)' }}
         />
       )}
     </div>
